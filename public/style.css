@@ -1,0 +1,108 @@
+h1{
+  padding-top: 5rem;
+}
+
+span{
+  color:#f21b3f;
+}
+.item {
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 20px;
+}
+.items{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+@media (max-width:970px) {
+  .items{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (max-width:600px) {
+  .items{
+    display: grid;
+    grid-template-columns: 100%
+  }
+}
+
+.item-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.item-image {
+  height: 300px;
+  width: 100%;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px 15px;
+}
+
+.item-details > .item-price {
+  margin: 0;
+}
+
+@media (max-width:990px) {
+  .addToCart{
+    font-size: 0.6rem;
+  }
+}
+
+
+
+.CarritoContenedor{
+  padding: 20px 0px;
+}
+
+.shopHeader {
+  border-bottom: 1px solid #ccc;
+}
+
+.shopImage {
+  max-width: 80px;
+  border-radius: 20px;
+}
+
+.inputCantidad {
+  max-width: 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #eee;
+  padding: 5px;
+}
+
+.shopping-cart-total {
+  min-height: 96px;
+  font-size: 1.5rem;
+}
+
+.comprarButtonDiv{
+  justify-content: end;
+}
+
+.shopTitulo{
+  font-size: 1.3rem;
+  margin-left: 2rem;
+}
+
+.total{
+  margin-left: 1rem;
+}
+
+
+.fa-shopping-cart{
+  font-size: 20px;
+}
+
+.modal-header{
+  text-align: center;
+}
+
